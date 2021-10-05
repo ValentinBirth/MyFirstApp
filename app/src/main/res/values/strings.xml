@@ -3,4 +3,10 @@
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
     <string name="apps_opinon">Aha, das habe ich noch nie gehört</string>
+    <string-array name="apps_opinions">
+        <item>Aha, das habe ich noch nie gehört</item>
+        <item>Interessant</item>
+        <item>Sowas gibt es ?</item>
+        <item>Toll</item>
+    </string-array>
 </resources>
