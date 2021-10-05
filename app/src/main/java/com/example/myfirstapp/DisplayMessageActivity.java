@@ -19,6 +19,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         // Capture the layout's TextView and set the string as its text
         TextView textView = findViewById(R.id.textView);
-        textView.setText(message+" Aha, das habe ich noch nie gehört");
+        textView.setText(String.format("%s %s", message, getString(R.string.apps_opinon)));
     }
 }
